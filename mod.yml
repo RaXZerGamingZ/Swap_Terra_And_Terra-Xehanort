@@ -1,0 +1,1366 @@
+title: Swap Terra and Terra-Xehanort
+originalAuthor: RAXZER, Absolutely Subarashii
+description: Visual and audio swap of Terra and Terra-Xehanort. Made with additional help from TieuLink and KeyToTruth
+game: bbs
+dependencies: 
+assets:
+- name: remastered/arc/boss/b50ex00d.arc/JP_b50ex00d_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed.dds
+- name: remastered/arc/boss/b50ex00d.arc/JP_b50ex00d_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed_half.dds
+- name: remastered/arc/boss/b50ex00d.arc/JP_b50ex00d_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_damage.dds
+- name: remastered/arc/boss/b50ex00d.arc/JP_b50ex00d_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_squint2.dds
+- name: remastered/arc/boss/b50ex00d.arc/JP_b50ex00d_arc7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/arc/boss/b50ex00d.arc/JP_b50ex00d_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/arc/boss/b50ex00d.arc/JP_b50ex00d_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/sparks.dds
+- name: remastered/arc/boss/b51ex00d.arc/JP_b51ex00d_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed.dds
+- name: remastered/arc/boss/b51ex00d.arc/JP_b51ex00d_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed_half.dds
+- name: remastered/arc/boss/b51ex00d.arc/JP_b51ex00d_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_damage.dds
+- name: remastered/arc/boss/b51ex00d.arc/JP_b51ex00d_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_squint2.dds
+- name: remastered/arc/boss/b51ex00d.arc/JP_b51ex00d_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/arc/boss/b51ex00d.arc/JP_b51ex00d_arc7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/arc/boss/b51ex00d.arc/JP_b51ex00d_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/sparks.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc13.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc14.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc60.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc61.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_neutral.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed_half.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_damage.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc9.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_squint2.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/sparks.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_damage.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc11.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc12.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc13.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc14.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_damage.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc15.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_right.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc16.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc17.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc18.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc19.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_right.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc20.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc21.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc22.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_right.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc23.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc24.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc25.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc26.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc27.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_down.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_left.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc44.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc45.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/boss/b70ex00d.arc/JP_b70ex00d_arc9.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_right.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_damage.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc9.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc11.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/smile.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_damage.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc9.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/pc/p73ex00.arc/JP_p73ex00_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/pc/p73ex00.arc/JP_p73ex00_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p73ex00.arc/JP_p73ex00_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p73ex00.arc/JP_p73ex00_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_damage.dds
+- name: remastered/arc/pc/p73ex00.arc/JP_p73ex00_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p73ex00.arc/JP_p73ex00_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p73ex00.arc/JP_p73ex00_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p73ex00.arc/JP_p73ex00_arc9.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/pc/p03menu.arc/JP_p03menu_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/p03menu.arc/hud.dds
+- name: remastered/arc_de/pc/p03menu.arc/GR_p03menu_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/p03menu.arc/hud.dds
+- name: remastered/arc_en/pc/p03menu.arc/US_p03menu_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/p03menu.arc/hud.dds
+- name: remastered/arc_es/pc/p03menu.arc/SP_p03menu_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/p03menu.arc/hud.dds
+- name: remastered/arc_fr/pc/p03menu.arc/FR_p03menu_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/p03menu.arc/hud.dds
+- name: remastered/arc_it/pc/p03menu.arc/IT_p03menu_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/p03menu.arc/hud.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_right.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_down.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_left.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed_half.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed2.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_squint2.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_damage.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.txa/-8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_right.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_down.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_left.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed_half.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed2.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_squint2.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_damage.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.txa/-8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_right.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_down.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_left.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed_half.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed2.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_squint2.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_damage.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.txa/-8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed.dds
+- name: remastered/chara/boss/b70ex/00/b70ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/chara/boss/b73ex/00/b73ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/chara/boss/b79ex/00/b79ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/chara/enemy/m92ex/00/m92ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/face.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.pmo/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.txa/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.txa/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.txa/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.txa/-3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.txa/-4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.txa/-5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.txa/-6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h03ex/00/h03ex00.txa/-7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h13ex/00/h13ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/face.dds
+- name: remastered/chara/high/h13ex/00/h13ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/chara/high/h51ex/00/h51ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra_High/face.dds
+- name: remastered/chara/high/h51ex/00/h51ex00.pmo/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra_High/eye.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_right.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-11.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-12.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-13.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_damage.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-14.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_right.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-15.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-16.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-17.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-18.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-19.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_down.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-20.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-21.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_right.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-22.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-23.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-24.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-25.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-26.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_left.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_look_right.dds
+- name: remastered/chara/pc/p03ex/00/p03ex00.txa/-9.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_damage.dds
+- name: remastered/chara/pc/p03ex/10/p03ex10.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/chara/pc/p23ex/00/p23ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/chara/pc/p43ex/00/p43ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/chara/pc/p43ex/00/p43ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/ForEventJP/boss/b50ex/00/b50ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/ForEventJP/boss/b51ex/00/b51ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/base.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_neutral.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_serious.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_right.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_down.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_look_left.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed_half.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed2.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_squint2.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_damage.dds
+- name: remastered/ForEventJP/boss/b52ex/00/b52ex00.txa/-8.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra/eyes_closed.dds
+- name: remastered/ForEventJP/boss/b70ex/00/b70ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/ForEventJP/boss/b73ex/00/b73ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/ForEventJP/boss/b79ex/00/b79ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/ForEventJP/enemy/m92ex/00/m92ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/ForEventJP/high/h03ex/00/h03ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/face.dds
+- name: remastered/ForEventJP/high/h03ex/00/h03ex00.pmo/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/ForEventJP/high/h13ex/00/h03ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/face.dds
+- name: remastered/ForEventJP/high/h13ex/00/h03ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort_High/eye.dds
+- name: remastered/ForEventJP/pc/p43ex/00/p43ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/ForEventJP/pc/p43ex/00/p43ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: arc/boss/b50ex00d.arc
+  method: copy
+  source:
+  - name: arc/boss/b50ex00d.arc
+- name: arc/effect/p03_ter.arc
+  method: copy
+  source:
+  - name: arc/effect/p03_ter.arc
+- name: arc/effect/pac_231.arc
+  method: copy
+  source:
+  - name: arc/effect/pac_231.arc
+- name: arc/effect/pac_232.arc
+  method: copy
+  source:
+  - name: arc/effect/pac_232.arc
+- name: arc/effect/pat_337.arc
+  method: copy
+  source:
+  - name: arc/effect/pat_337.arc
+- name: arc/boss/b50_00.arc
+  method: copy
+  source:
+  - name: arc/boss/b50_00.arc
+- name: arc/boss/b40ex00d.arc
+  method: copy
+  source:
+  - name: arc/boss/b40ex00d.arc
+- name: arc/boss/b41ex00d.arc
+  method: copy
+  source:
+  - name: arc/boss/b41ex00d.arc
+- name: arc/effect/p00_com.arc
+  method: copy
+  source:
+  - name: arc/effect/p00_com.arc
+- name: sound/win/voice/en/battle/vo0101.win32.scd
+  method: copy
+  source:
+  - name: sound/win/voice/en/battle/vo0101.win32.scd
+- name: sound/win/voice/en/battle/vo0108.win32.scd
+  method: copy
+  source:
+  - name: sound/win/voice/en/battle/vo0108.win32.scd
+- name: sound/win/se/weapon/se0554.win32.scd
+  method: copy
+  source:
+  - name: sound/win/se/weapon/se0554.win32.scd
+- name: sound/win/se/enemy/se0271.win32.scd
+  method: copy
+  source:
+  - name: sound/win/se/enemy/se0271.win32.scd
+- name: remastered/arc/boss/b50ex00d.arc/JP_b50ex00d_arc9.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/neutral.dds
+- name: remastered/arc/boss/b51ex00d.arc/JP_b51ex00d_arc9.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/neutral.dds
+- name: remastered/arc/boss/b52ex00d.arc/JP_b52ex00d_arc15.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/neutral.dds
+- name: remastered/arc/pc/p03base.arc/JP_p03base_arc11.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/smile.dds
+- name: remastered/chara/boss/b50ex/00/b50ex00.pmo/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/neutral.dds
+- name: remastered/chara/boss/b51ex/00/b51ex00.pmo/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/neutral.dds
+- name: remastered/chara/boss/b52ex/00/b52ex00.pmo/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/neutral.dds
+- name: remastered/chara/pc/p03ex/10/p03ex10.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/chara/pc/p23ex/00/p23ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: arc/weapon/w14te00.arc
+  method: copy
+  source:
+  - name: arc/weapon/w14te00.arc
+- name: remastered/arc/weapon/w14te00.arc/JP_w14te00_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/keyblade_xehanort/keyblade.dds
+- name: remastered/arc/weapon/w14te00.arc/JP_w14te00_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/keyblade_xehanort/keychain.dds
+- name: remastered/arc/weapon/w14te00.arc/JP_w14te00_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/keyblade_xehanort/stars.dds
+- name: chara/weapon/w14te/00/w14te00.pmo
+  method: copy
+  source:
+  - name: chara/weapon/w14te/00/w14te00.pmo
+- name: chara/weapon/w14te/0s/w14te0s.pmo
+  method: copy
+  source:
+  - name: chara/weapon/w14te/0s/w14te0s.pmo
+- name: chara/weapon/w14te/10/w14te10.pmo
+  method: copy
+  source:
+  - name: chara/weapon/w14te/10/w14te10.pmo
+- name: ForEventJP/weapon/w14te/00/w14te00.pmo
+  method: copy
+  source:
+  - name: chara/weapon/w14te/00/w14te00.pmo
+- name: ForEventJP/weapon/w14te/0s/w14te0s.pmo
+  method: copy
+  source:
+  - name: chara/weapon/w14te/0s/w14te0s.pmo
+- name: ForEventJP/weapon/w14te/10/w14te10.pmo
+  method: copy
+  source:
+  - name: chara/weapon/w14te/10/w14te10.pmo
+- name: remastered/chara/weapon/w14te/00/w14te00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/keyblade_xehanort/keyblade.dds
+- name: remastered/chara/weapon/w14te/10/w14te10.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/keyblade_xehanort/keychain.dds
+- name: remastered/ForEventJP/chara/weapon/w14te/00/w14te00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/keyblade_xehanort/keyblade.dds
+- name: remastered/ForEventJP/chara/weapon/w14te/10/w14te10.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/keyblade_xehanort/keychain.dds
+- name: remastered/arc/boss/b40ex00d.arc/JP_b40ex00d_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_squint_low.dds
+- name: remastered/arc/boss/b40ex00d.arc/JP_b40ex00d_arc6.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/head.dds
+- name: remastered/arc/boss/b40ex00d.arc/JP_b40ex00d_arc7.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_neutral.dds
+- name: remastered/arc/boss/b40ex00d.arc/JP_b40ex00d_arc9.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/sparks.dds
+- name: remastered/arc/boss/b41ex00d.arc/JP_b41ex00d_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/keyblade.dds
+- name: remastered/arc/boss/b41ex00d.arc/JP_b41ex00d_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/keychain.dds
+- name: remastered/arc/boss/b41ex00d.arc/JP_b41ex00d_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/sparks.dds
+- name: remastered/arc/boss/b53ex00d.arc/JP_b53ex00d_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/keyblade.dds
+- name: remastered/arc/boss/b54ex00.arc/JP_b54ex00_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/keychain.dds
+- name: remastered/chara/high/h04di/00/h04di00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort_DI_High/head.dds
+- name: remastered/ForEventJP/high/h04di/00/h04di00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort_DI_High/head.dds
+- name: remastered/chara/high/h40ex/00/h40ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort_High/head.dds
+- name: remastered/ForEventJP/high/h40ex/00/h40ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort_High/head.dds
+- name: arc/boss/b54ex00.arc
+  method: copy
+  source:
+  - name: arc/boss/b54ex00.arc
+- name: arc/boss/b53ex00d.arc
+  method: copy
+  source:
+  - name: arc/boss/b53ex00d.arc
+- name: chara/boss/b53ex/00/b53ex00.pmo
+  method: copy
+  source:
+  - name: chara/boss/b53ex/00/b53ex00.pmo
+- name: chara/boss/b54ex/00/b54ex00.pmo
+  method: copy
+  source:
+  - name: chara/boss/b54ex/00/b54ex00.pmo
+- name: ForEventJP/boss/b53ex/00/b53ex00.pmo
+  method: copy
+  source:
+  - name: chara/boss/b53ex/00/b53ex00.pmo
+- name: ForEventJP/boss/b54ex/00/b54ex00.pmo
+  method: copy
+  source:
+  - name: chara/boss/b54ex/00/b54ex00.pmo
+- name: chara/boss/b41ex/00/b41ex00.pmo
+  method: copy
+  source:
+  - name: chara/boss/b41ex/00/b41ex00.pmo
+- name: chara/boss/b42ex/00/b42ex00.pmo
+  method: copy
+  source:
+  - name: chara/boss/b42ex/00/b42ex00.pmo
+- name: ForEventJP/boss/b41ex/00/b41ex00.pmo
+  method: copy
+  source:
+  - name: chara/boss/b41ex/00/b41ex00.pmo
+- name: ForEventJP/boss/b42ex/00/b42ex00.pmo
+  method: copy
+  source:
+  - name: chara/boss/b42ex/00/b42ex00.pmo
+- name: remastered/chara/boss/b53ex/00/b53ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/keyblade.dds
+- name: remastered/chara/boss/b54ex/00/b54ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/keychain.dds
+- name: remastered/chara/boss/b41ex/00/b41ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/keyblade.dds
+- name: remastered/chara/boss/b42ex/00/b42ex00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/keychain.dds
+- name: remastered/Item/Tm2/it010c.tm2/-0.dds
+  method: copy
+  source:
+  - name: remastered/Item/Tm2/it010c.tm2/-0.dds
+- name: remastered/Item/Tm2/it010cs.tm2/-0.dds
+  method: copy
+  source:
+  - name: remastered/Item/Tm2/it010cs.tm2/-0.dds
+- name: message/en/system/CTit000.ctd
+  method: copy
+  source:
+  - name: message/en/system/CTit000.ctd
+- name: message/en/system/CTih000.ctd
+  method: copy
+  source:
+  - name: message/en/system/CTih000.ctd
+- name: remastered/arc/menu/camp.arc/JP_camp_arc2.png
+  method: copy
+  source:
+  - name: remastered/arc/menu/camp.arc/JP_camp_arc2.png
+- name: remastered/arc_en/menu/camp.arc/US_camp_arc6.png
+  method: copy
+  source:
+  - name: remastered/arc_en/menu/camp.arc/US_camp_arc6.png
+- name: remastered/arc_es/menu/camp.arc/SP_camp_arc4.png
+  method: copy
+  source:
+  - name: remastered/arc_es/menu/camp.arc/SP_camp_arc4.png
+- name: remastered/arc_fr/menu/camp.arc/FR_camp_arc2.png
+  method: copy
+  source:
+  - name: remastered/arc_fr/menu/camp.arc/FR_camp_arc2.png
+- name: remastered/arc_it/menu/camp.arc/IT_camp_arc6.png
+  method: copy
+  source:
+  - name: remastered/arc_it/menu/camp.arc/IT_camp_arc6.png
+- name: remastered/chara/npc/n04di/00/n04di00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort_DI/base.dds
+- name: remastered/chara/npc/n04di/00/n04di00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort_DI/eyes_neutral.dds
+- name: remastered/ForEventJP/npc/n04di/00/n04di00.pmo/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort_DI/base.dds
+- name: remastered/ForEventJP/npc/n04di/00/n04di00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort_DI/eyes_neutral.dds
+- name: remastered/arc/menu/Select_2D.arc/JP_Select_2D_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Select_2D.arc/JP_Select_2D_arc3.dds
+- name: remastered/arc_de/menu/Select_2D.arc/GR_Select_2D_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Select_2D.arc/JP_Select_2D_arc3.dds
+- name: remastered/arc_en/menu/Select_2D.arc/US_Select_2D_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Select_2D.arc/JP_Select_2D_arc3.dds
+- name: remastered/arc_es/menu/Select_2D.arc/SP_Select_2D_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Select_2D.arc/JP_Select_2D_arc3.dds
+- name: remastered/arc_fr/menu/Select_2D.arc/FR_Select_2D_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Select_2D.arc/JP_Select_2D_arc3.dds
+- name: remastered/arc_it/menu/Select_2D.arc/JP_Select_2D_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Select_2D.arc/JP_Select_2D_arc3.dds
+- name: remastered/arc/menu/title_03.arc/JP_title_03_arc1.dds
+  method: copy
+  source:
+  - name: remastered/arc/menu/title_03.arc/JP_title_03_arc1.dds
+- name: remastered/arc/menu/title_t.arc/JP_title_t_arc1.dds
+  method: copy
+  source:
+  - name: remastered/arc/menu/title_t.arc/JP_title_t_arc1.dds
+- name: remastered/arc/menu/t_report_2D.arc/JP_t_report_2D_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc4.dds
+- name: remastered/arc_de/menu/t_report_2D.arc/GR_t_report_2D_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc4.dds
+- name: remastered/arc_en/menu/t_report_2D.arc/US_t_report_2D_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc4.dds
+- name: remastered/arc_es/menu/t_report_2D.arc/SP_t_report_2D_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc4.dds
+- name: remastered/arc_fr/menu/t_report_2D.arc/FR_t_report_2D_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc4.dds
+- name: remastered/arc_it/menu/t_report_2D.arc/IT_t_report_2D_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc4.dds
+- name: remastered/arc/menu/t_report_2D.arc/JP_t_report_2D_arc7.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc7.dds
+- name: remastered/arc_de/menu/t_report_2D.arc/GR_t_report_2D_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc7.dds
+- name: remastered/arc_en/menu/t_report_2D.arc/US_t_report_2D_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc7.dds
+- name: remastered/arc_es/menu/t_report_2D.arc/SP_t_report_2D_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc7.dds
+- name: remastered/arc_fr/menu/t_report_2D.arc/FR_t_report_2D_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc7.dds
+- name: remastered/arc_it/menu/t_report_2D.arc/IT_t_report_2D_arc8.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/t_report_2D.arc/JP_t_report_2D_arc7.dds
+- name: remastered/arc/menu/Report022D.arc/JP_Report022D_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Report022D.arc/JP_Report022D_arc2.dds
+- name: remastered/arc_gr/menu/Report022D.arc/GR_Report022D_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Report022D.arc/JP_Report022D_arc2.dds
+- name: remastered/arc_en/menu/Report022D.arc/US_Report022D_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Report022D.arc/JP_Report022D_arc2.dds
+- name: remastered/arc_es/menu/Report022D.arc/SP_Report022D_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Report022D.arc/JP_Report022D_arc2.dds
+- name: remastered/arc_fr/menu/Report022D.arc/FR_Report022D_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Report022D.arc/JP_Report022D_arc2.dds
+- name: remastered/arc_it/menu/Report022D.arc/IT_Report022D_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/Report022D.arc/JP_Report022D_arc2.dds
+- name: remastered/arc/boss/b53ex00d.arc/JP_b53ex00d_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/sparks.dds
+- name: remastered/arc/boss/b53ex00d.arc/JP_b53ex00d_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/weapon/chaos_reaper/sparks.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/head.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.pmo/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_neutral.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.pmo/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/head.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.pmo/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_neutral.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_look_up.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_look_right.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_look_down.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-3.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_look_left.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-4.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_closed_half.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-5.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_closed.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-6.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_damage.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-7.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_angry.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-8.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_squint.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-9.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_defeat.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-10.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_calm.dds
+- name: remastered/chara/boss/b40ex/00/b40ex00.txa/-11.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_calm2.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-0.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_look_up.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-1.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_look_right.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-2.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_look_down.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-3.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_look_left.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-4.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_closed_half.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-5.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_closed.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-6.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_damage.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-7.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_angry.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-8.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_squint.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-9.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_defeat.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-10.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_calm.dds
+- name: remastered/ForEventJP/boss/b40ex/00/b40ex00.txa/-11.dds
+  method: copy
+  source:
+  - name: zz_textures/Xehanort/eyes_calm2.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc11.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/smile.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc11.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/smile.dds
