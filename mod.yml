@@ -1,6 +1,6 @@
 title: Swap Terra and Terra-Xehanort
 originalAuthor: RAXZER, Absolutely Subarashii
-description: Complete swap of Terra and Terra-Xehanort. Made by RAXZER and Absolutely Subarashii with additional help from TieuLink and Keytotruth
+description: Visual and audio swap of Terra and Terra-Xehanort. Made with additional help from TieuLink and KeyToTruth
 game: bbs
 dependencies: 
 assets:
@@ -244,39 +244,39 @@ assets:
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/base.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc0.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc0.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_closed.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc1.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc1.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc10.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc10.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc11.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc11.dds
   method: copy
   source:
   - name: zz_textures/expression/smile.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc2.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc2.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_damage.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc3.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc3.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc4.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc4.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_squint.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc5.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc5.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_squint.dds
-- name: remastered/arc/pc/p03bd00.arc/JP_p03base_arc9.dds
+- name: remastered/arc/pc/p03bd00.arc/JP_p03bd00_arc9.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/base.dds
@@ -804,6 +804,10 @@ assets:
   method: copy
   source:
   - name: sound/win/voice/en/battle/vo0101.win32.scd
+- name: sound/win/voice/en/battle/vo0171.win32.scd
+  method: copy
+  source:
+  - name: sound/win/voice/en/battle/vo0171.win32.scd
 - name: sound/win/voice/en/battle/vo0108.win32.scd
   method: copy
   source:
@@ -1328,39 +1332,155 @@ assets:
   method: copy
   source:
   - name: zz_textures/expression/smile.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc0.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc0.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_closed.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc1.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc1.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc2.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc2.dds
   method: copy
   source:
-  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc3.dds
+  - name: zz_textures/Terra-Xehanort/eyes_damage.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc3.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc4.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc4.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_squint.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc5.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc5.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_squint.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc9.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/base.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc10.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc10.dds
   method: copy
   source:
   - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
-- name: remastered/arc/pc/p23bd00.arc/JP_p43base_arc11.dds
+- name: remastered/arc/pc/p23bd00.arc/JP_p23bd00_arc11.dds
   method: copy
   source:
   - name: zz_textures/expression/smile.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/p43base.arc/JP_p43base_arc11.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/smile.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc0.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc7.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/b73ex00d.arc/JP_b73ex00d_arc11.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/smile.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc2.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc3.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_closed_half.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc4.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc5.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc6.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_squint.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc10.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/base.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc11.dds
+  method: copy
+  source:
+  - name: zz_textures/Terra-Xehanort/eyes_neutral.dds
+- name: remastered/arc/pc/b79ex00d.arc/JP_b79ex00d_arc12.dds
+  method: copy
+  source:
+  - name: zz_textures/expression/smile.dds
+- name: remastered/arc/pc/p03ex_710.arc/JP_p03ex_710_arc1.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/p03ex_710.arc/JP_p03ex_710_arc1.dds
+- name: remastered/arc/etc/bd_game.arc/JP_bd_game_arc12.dds
+  method: copy
+  source:
+  - name: zz_textures/menu/bd_game/JP_bd_game_arc12.dds
